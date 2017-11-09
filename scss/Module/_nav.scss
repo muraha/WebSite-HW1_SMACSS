@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 3 0;
+    align-items: center;
+    text-align: center;
+    &>a {
+        padding: 0 1rem;
+        margin: 1.5rem 0;
+        text-decoration: none;
+        color: #2d3950;
+        transform: scaleY(1.9)
+    }
+}
+
+@media screen and (max-width:680px) {
+    .navigation>a {
+        transform: scaleY(1.5);
+        padding: 1.2rem 0;
+    }
+}

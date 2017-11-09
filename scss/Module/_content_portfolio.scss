@@ -1,0 +1,112 @@
+    .simple {
+        background-color: #f6f9f9;
+        min-width: 100%;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+    
+    .simple-header {
+        color: $black;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    .simple-body {
+        color: #999;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: center;
+        width: 60%;
+    }
+    
+    .icons {
+        background-color: #fff;
+        min-width: 100%;
+        min-height: 320px;
+        display: flex;
+        justify-content: center;
+        padding: 4rem 0 1rem;
+    }
+    
+    .icon_wrap {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .icon_header {
+        color: $black;
+        font-size: 1.375rem;
+        font-weight: 400;
+        text-align: center;
+        margin: 1.7rem 0 0;
+    }
+    
+    .icon_body {
+        color: #999;
+        font-size: 0.938rem;
+        font-weight: 400;
+        line-height: 1.467;
+        text-align: center;
+        max-width: 24rem;
+        margin: 1.7rem 1rem;
+    }
+    
+    .showcase {
+        background-color: #f6f9f9;
+        min-width: 100%;
+        min-height: 900px;
+        font-weight: 400;
+        text-align: center;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        padding: 0 0 2rem 0;
+    }
+    
+    .showcase_header {
+        color: $black;
+        font-size: 2.563rem;
+        margin: 4rem 0 1rem;
+    }
+    
+    .showcase_body {
+        font-size: 0.938rem;
+        line-height: 1.533;
+        margin: 1rem 0 3rem;
+    }
+    
+    .showcase_bg {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        max-width: 360px*3+16px*6;
+    }
+    
+    .bg {
+        margin: 1rem;
+        width: 360px;
+    }
+    
+    @media screen and (max-width:680px) {
+        .icons {
+            flex-flow: column nowrap;
+        }
+        .simple-header {
+            font-size: 2rem;
+        }
+        .simple-body {
+            font-size: 1rem;
+        }
+        .showcase_header {
+            font-size: 2rem;
+        }
+    }

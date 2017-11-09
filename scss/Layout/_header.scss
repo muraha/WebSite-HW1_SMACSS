@@ -1,0 +1,14 @@
+    .header {
+        display: flex;
+        width: 100%;
+        background-color: #f6f9f9;
+        position: fixed;
+        z-index: 1000;
+    }
+    
+    @media screen and (max-width:680px) {
+        .header {
+            flex-direction: column;
+            height: 3.75rem*1.5;
+        }
+    }

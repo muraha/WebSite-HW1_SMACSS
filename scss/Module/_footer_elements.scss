@@ -1,0 +1,48 @@
+                .copyright {
+                    flex: 1 0;
+                    color: #999;
+                    font-size: 0.938rem;
+                    font-weight: 400;
+                    text-align: center;
+                    >p {
+                        margin: 2rem;
+                    }
+                }
+                
+                .social {
+                    display: flex;
+                    flex: 2 0;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding: 0 5rem 0
+                }
+                
+                .link {
+                    margin: 0.5rem;
+                }
+                
+                @media screen and (max-width:860px) {
+                    .copyright {
+                        flex: 0 0;
+                        >p {
+                            margin: 2rem;
+                            min-width: 160px;
+                        }
+                    }
+                    .social {
+                        flex: 0 0;
+                    }
+                }
+                
+                @media screen and (max-width:640px) {
+                    .copyright {
+                        font-size: 0.5rem;
+                        >p {
+                            margin: 0 0 -2rem;
+                            padding: 2rem 0 0;
+                        }
+                    }
+                    .social {
+                        padding: 0rem 0rem 2rem
+                    }
+                }

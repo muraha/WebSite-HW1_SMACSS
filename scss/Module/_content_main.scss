@@ -1,0 +1,33 @@
+.main-logo {
+    color: #ffffff;
+    font-size: 7.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.content_main span {
+    background: $blue;
+    min-width: 30rem;
+    box-sizing: border-box;
+    border: 1px solid $blue;
+    border-radius: 2px;
+}
+
+.main-about {
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 2.35;
+    text-align: center;
+}
+
+.main-button-div {
+    background: $blue;
+    border-radius: 2px;
+    border: 3px solid $blue;
+    width: 176px;
+    height: 54px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 1.25rem;
+}
